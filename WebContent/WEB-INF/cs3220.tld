@@ -1,0 +1,24 @@
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+        http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+    version="2.1">
+
+    <display-name>CS3220 Roman Numerals Tag</display-name>
+    <tlib-version>1.0</tlib-version>
+    <short-name>cs3220</short-name>
+    <uri>https://heeeeeeeey.com/</uri>
+
+
+    <tag>
+        <name>romanNumeral</name>
+        <tag-class>cs3220.tag.RomanNumeralTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>value</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+</taglib>
